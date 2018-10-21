@@ -39,3 +39,17 @@ function topFunction() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+
+
+// test top
+var string = "Top 60 Banned Films in China (2153 sloc) 99.6 KB";
+var str = string.split("");
+var el = document.getElementById('str');
+(function animate() {
+str.length > 0 ? el.innerHTML += str.shift() : clearTimeout(running);
+var running = setTimeout(animate, 50);
+})();
+
+
+// test topFunction
