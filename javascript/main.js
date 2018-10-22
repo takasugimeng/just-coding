@@ -43,7 +43,7 @@ function topFunction() {
 
 
 // test top
-var string = "Top 60 Banned Films in China (2153 sloc) 99.6 KB";
+var string = "禁片60部 Top 60 Banned Films in China (2153 sloc) 99.6 KB";
 var str = string.split("");
 var el = document.getElementById('str');
 (function animate() {
